@@ -4,7 +4,7 @@ import Project from "./Project";
 function Projects() {
   return (
     <section id="projects">
-      <h3 className="text-center">Projects</h3>
+      <h2 className="text-center">Projects</h2>
       <p className="text-center text-muted">
         All of my projects are available at{" "}
         <a
