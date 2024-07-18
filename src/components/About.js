@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section id="about" className="mb-3 text-center">
+    <section id="about">
       <h2>Hello, I'm wkktoria! 👋</h2>
       <p className="text-muted">Aspiring Java Developer</p>
       <p>
