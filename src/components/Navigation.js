@@ -21,6 +21,11 @@ function Navigation() {
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav ms-auto mb-2 mb-sm-0">
             <li className="nav-item">
+              <a className="nav-link" href="#projects">
+                Projects
+              </a>
+            </li>
+            <li className="nav-item">
               <ThemeSwitch />
             </li>
           </ul>
