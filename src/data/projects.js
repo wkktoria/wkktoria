@@ -14,13 +14,13 @@ const projects = [
   },
   {
     name: "Jokez",
-    imageUrl: "./wkktoria/assets/images/no-image.png",
+    imageUrl: "https://wkktoria.github.io/wkktoria/assets/images/no-image.png",
     stack: ["Java", "JavaFX", "JUnit 5"],
     repoUrl: "https://github.com/wkktoria/Jokez",
   },
   {
     name: "Todo",
-    imageUrl: "./wkktoria/assets/images/no-image.png",
+    imageUrl: "https://wkktoria.github.io/wkktoria/assets/images/no-image.png",
     stack: [
       "Java",
       "Jakarta Servlet",
@@ -35,7 +35,7 @@ const projects = [
   },
   {
     name: "Interests",
-    imageUrl: "./wkktoria/assets/images/no-image.png",
+    imageUrl: "https://wkktoria.github.io/wkktoria/assets/images/no-image.png",
     stack: [
       "Java",
       "JSP",
