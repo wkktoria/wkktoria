@@ -1,7 +1,11 @@
 function Project({ name, imageUrl, stack, repoUrl }) {
   return (
     <div className="project d-flex flex-column justify-content-start align-items-center gap-2 m-3 border text-center">
-      <img src={imageUrl} alt={name} className="border-bottom" />
+      <img
+        src={imageUrl}
+        alt={name}
+        className="project-image border-bottom mb-2"
+      />
       <h3>{name}</h3>
       <ul className="list-inline">
         {stack.map((item) => (
