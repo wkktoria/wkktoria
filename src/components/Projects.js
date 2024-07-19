@@ -3,10 +3,10 @@ import Project from "./Project";
 
 function Projects() {
   return (
-    <section id="projects">
+    <section id="projects" className="mx-2">
       <h2 className="text-center">Projects</h2>
       <p className="text-center text-muted">
-        All of my projects are available at{" "}
+        I'm into open-source, so all of my projects are available at{" "}
         <a
           href="https://github.com/wkktoria"
           target="_blank"
