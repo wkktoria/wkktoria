@@ -16,15 +16,20 @@ function Projects() {
         </a>
         .
       </p>
-      <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center">
-        {projects.map((project) => (
-          <Project
-            name={project.name}
-            imageUrl={project.imageUrl}
-            stack={project.stack}
-            repoUrl={project.repoUrl}
-          />
-        ))}
+      <div className="container mt-4">
+        <div className="row gy-4">
+          {projects.map((project) => (
+            <div className="col-lg-4">
+              <Project
+                name={project.name}
+                description={project.description}
+                imageUrl={project.imageUrl}
+                stack={project.stack}
+                repoUrl={project.repoUrl}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

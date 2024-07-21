@@ -1,26 +1,29 @@
-function Project({ name, imageUrl, stack, repoUrl }) {
+function Project({ name, description, imageUrl, stack, repoUrl }) {
   return (
-    <div className="project d-flex flex-column justify-content-start align-items-center gap-2 m-3 border text-center">
-      <img
-        src={imageUrl}
-        alt={name}
-        className="project-image border-bottom mb-2"
-      />
-      <h3 className="mx-2">{name}</h3>
-      <ul className="list-inline">
-        {stack.map((item) => (
-          <li className="list-inline-item mx-1 my-1">{item}</li>
-        ))}
-      </ul>
-      <a
-        className="btn btn-sm"
-        href={repoUrl}
-        target="_blank"
-        rel="noreferrer noopener"
-        role="button"
-      >
-        Source code
-      </a>
+    <div className="card shadow h-100">
+      <img src={imageUrl} className="card-img-top" alt={name} />
+      <div className="card-body">
+        <h5 className="card-title">{name}</h5>
+        <p className="card-text">{description}</p>
+        <ul className="list-inline">
+          {stack.map((item) => (
+            <li
+              key={item}
+              className="list-inline-item mx-1 my-1 shadow-sm stack-item "
+            >
+              {item}
+            </li>
+          ))}
+        </ul>
+        <a
+          href={repoUrl}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="btn border shadow-sm"
+        >
+          Source code
+        </a>
+      </div>
     </div>
   );
 }
