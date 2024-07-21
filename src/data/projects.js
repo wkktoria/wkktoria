@@ -47,6 +47,13 @@ const projects = [
     ],
     repoUrl: "https://github.com/wkktoria/Interests",
   },
+  {
+    name: "HTTPCodes",
+    imageUrl:
+      "https://raw.githubusercontent.com/wkktoria/HTTPCodes/main/demo-gui.png",
+    stack: ["Java", "Swing"],
+    repoUrl: "https://github.com/wkktoria/HTTPCodes",
+  },
 ];
 
 export default projects;
