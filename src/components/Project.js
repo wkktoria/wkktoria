@@ -6,7 +6,7 @@ function Project({ name, imageUrl, stack, repoUrl }) {
         alt={name}
         className="project-image border-bottom mb-2"
       />
-      <h3>{name}</h3>
+      <h3 className="mx-2">{name}</h3>
       <ul className="list-inline">
         {stack.map((item) => (
           <li className="list-inline-item mx-1 my-1">{item}</li>
