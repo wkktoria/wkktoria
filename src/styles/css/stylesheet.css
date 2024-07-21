@@ -14,3 +14,13 @@ section {
   width: 100%;
   height: 40%;
 }
+
+/* Contact section */
+
+.contact-icon {
+  font-size: 3rem;
+}
+
+#linkedInIcon {
+  color: #0a66c2;
+}
