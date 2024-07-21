@@ -1,6 +1,7 @@
 const projects = [
   {
     name: "Pogodynka",
+    description: "Desktop weather application",
     imageUrl:
       "https://raw.githubusercontent.com/wkktoria/Pogodynka/main/demo.png",
     stack: ["Java", "Swing", "JUnit 5"],
@@ -8,18 +9,21 @@ const projects = [
   },
   {
     name: "Libook",
+    description: "Book management application",
     imageUrl: "https://raw.githubusercontent.com/wkktoria/Libook/main/demo.png",
     stack: ["Java", "JSP", "Jakarta Servlet", "MySQL", "Tomcat", "Docker"],
     repoUrl: "https://github.com/wkktoria/Libook",
   },
   {
     name: "Jokez",
+    description: "Application which tells jokes",
     imageUrl: "https://wkktoria.github.io/wkktoria/assets/images/no-image.png",
     stack: ["Java", "JavaFX", "JUnit 5"],
     repoUrl: "https://github.com/wkktoria/Jokez",
   },
   {
     name: "Todo",
+    description: "Simple todo-list application",
     imageUrl: "https://wkktoria.github.io/wkktoria/assets/images/no-image.png",
     stack: [
       "Java",
@@ -35,6 +39,7 @@ const projects = [
   },
   {
     name: "Interests",
+    description: "A compound interest calculator",
     imageUrl: "https://wkktoria.github.io/wkktoria/assets/images/no-image.png",
     stack: [
       "Java",
@@ -49,6 +54,7 @@ const projects = [
   },
   {
     name: "HTTPCodes",
+    description: "Information about HTTP response status codes",
     imageUrl:
       "https://raw.githubusercontent.com/wkktoria/HTTPCodes/main/demo-gui.png",
     stack: ["Java", "Swing"],
