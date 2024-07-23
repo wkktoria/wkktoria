@@ -1,12 +1,13 @@
+import { useTranslation } from "react-i18next";
+
 function About() {
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="mx-4">
-      <h2>Hello, I'm wkktoria! 👋</h2>
+      <h2>{t("greeting")}</h2>
       <p className="text-muted">Aspiring Java Developer</p>
-      <p>
-        I'm dedicated and passionate computer science student, seeking to gain
-        more programming experience and face new challenges.
-      </p>
+      <p>{t("selfDescription")}</p>
     </section>
   );
 }

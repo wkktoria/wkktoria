@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 function Project({ name, description, imageUrl, stack, repoUrl }) {
+  const { t } = useTranslation();
+
   return (
     <div className="card shadow h-100">
       <img src={imageUrl} className="card-img-top" alt={name} />
@@ -21,7 +25,7 @@ function Project({ name, description, imageUrl, stack, repoUrl }) {
           rel="noreferrer noopener"
           className="btn border shadow-sm"
         >
-          Source code
+          {t("sourceCode")}
         </a>
       </div>
     </div>

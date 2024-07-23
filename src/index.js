@@ -6,6 +6,7 @@ import "./styles/css/reset.css";
 import "./styles/css/stylesheet.css";
 import "./styles/scss/stylesheet.scss";
 
+import "./i18n";
 import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

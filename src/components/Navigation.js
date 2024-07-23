@@ -1,6 +1,15 @@
+import languages from "../constant/languages";
 import ThemeSwitch from "./ThemeSwitch";
+import { useTranslation } from "react-i18next";
 
 function Navigation() {
+  const { i18n, t } = useTranslation();
+
+  const onLanguageChange = (e) => {
+    const code = e.target.value;
+    i18n.changeLanguage(code);
+  };
+
   return (
     <nav className="navbar navbar-expand-sm">
       <div className="container-fluid">
@@ -22,22 +31,29 @@ function Navigation() {
           <ul className="navbar-nav ms-auto mb-2 mb-sm-0">
             <li className="nav-item">
               <a className="nav-link" href="#about">
-                About
+                {t("about")}
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#projects">
-                Projects
+                {t("projects")}
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact">
-                Contact
+                {t("contact")}
               </a>
             </li>
             <li className="nav-item">
               <ThemeSwitch />
             </li>
+            <select defaultValue={i18n.language} onChange={onLanguageChange}>
+              {languages.map(({ label, code }) => (
+                <option key={code} value={code}>
+                  {label}
+                </option>
+              ))}
+            </select>
           </ul>
         </div>
       </div>
