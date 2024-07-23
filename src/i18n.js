@@ -37,7 +37,7 @@ i18n
           selfDescription:
             "Jestem zaangażowaną i pełną pasji studentką informatyki, która chce zdobyć więcej doświadczenia w programowaniu i stawić czoła nowym wyzwaniom.",
           projectsDescription:
-            "Jestem zwolenniczką open-source, dlatego wszystkie moje projekty są dostępne na GitHubie",
+            "Jestem zwolenniczką open-source, dlatego wszystkie moje projekty są dostępne na GitHubie.",
           contactDescription:
             "Możesz wysłać mi e-mail lub skontaktować się ze mną na moich portalach społecznościowych.",
         },
