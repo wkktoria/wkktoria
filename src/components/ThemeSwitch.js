@@ -2,7 +2,7 @@ function ThemeSwitch() {
   return (
     <a
       className="nav-link"
-      href="/#"
+      href="#/"
       onClick={() => {
         const themeIcon = document.querySelector("#themeIcon");
 
