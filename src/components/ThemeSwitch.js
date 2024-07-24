@@ -1,9 +1,8 @@
 function ThemeSwitch() {
   return (
-    <button
-      type="button"
-      id="themeButton"
-      className="btn rounded"
+    <a
+      className="nav-link"
+      href="/#"
       onClick={() => {
         const themeIcon = document.querySelector("#themeIcon");
 
@@ -26,7 +25,7 @@ function ThemeSwitch() {
             : "bi bi-moon"
         }
       ></i>
-    </button>
+    </a>
   );
 }
 

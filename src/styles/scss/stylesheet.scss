@@ -6,29 +6,12 @@
   background-color: $purple-500;
 }
 
-#themeButton {
-  border: none;
-  outline: none;
-}
-
-#themeIcon {
-  color: rgba($white, 0.55);
-
-  &:hover,
-  &:active {
-    color: rgba($white, 0.75);
-  }
-}
-
 #languageSelect {
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
   border: none;
-  color: rgba($white, 0.55);
   background-color: $purple-500;
-
-  &:hover,
-  &:active {
-    color: rgba($white, 0.75);
-  }
 }
 
 /* Projects section */
