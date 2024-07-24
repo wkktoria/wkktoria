@@ -14,7 +14,7 @@ function Skills() {
   const { t } = useTranslation();
 
   return (
-    <section id="skills" className="mx-4">
+    <section id="skills" className="mx-3">
       <h2>{t("technologiesAndSkills")}</h2>
       <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-5 my-4">
         <FontAwesomeIcon id="javaIcon" icon={faJava} size="4x" />

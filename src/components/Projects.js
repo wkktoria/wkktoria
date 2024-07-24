@@ -6,8 +6,8 @@ function Projects() {
   const { t } = useTranslation();
 
   return (
-    <section id="projects" className="mx-2">
-      <h2 className="text-center">{t("projects")}</h2>
+    <section id="projects" className="mx-3">
+      <h2>{t("projects")}</h2>
       <p className="text-center text-muted">{t("projectsDescription")}</p>
       <div className="container mt-4">
         <div className="row gy-4">

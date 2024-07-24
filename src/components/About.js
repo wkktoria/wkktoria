@@ -4,7 +4,7 @@ function About() {
   const { t } = useTranslation();
 
   return (
-    <section id="about" className="mx-4">
+    <section id="about" className="mx-3">
       <h2>{t("greeting")}</h2>
       <p className="text-muted">Aspiring Java Developer</p>
       <p>{t("selfDescription")}</p>
