@@ -5,6 +5,36 @@ section {
 
 /* Projects section */
 
+/* Skills section */
+
+#javaIcon {
+  color: #5382a1;
+}
+
+#jsIcon {
+  color: #f0db4f;
+}
+
+#htmlIcon {
+  color: #f16529;
+}
+
+#cssIcon {
+  color: #2965f1;
+}
+
+#dockerIcon {
+  color: #1d63ed;
+}
+
+#gitIcon {
+  color: #f1502f;
+}
+
+#githubIcon {
+  color: #000;
+}
+
 /* Contact section */
 
 .contact-icon {

@@ -16,6 +16,8 @@ i18n
         translation: {
           about: "About me",
           projects: "Projects",
+          skills: "Skills",
+          technologiesAndSkills: "Technologies and Skills",
           contact: "Contact",
           greeting: "Hello, I'm wkktoria! 👋",
           sourceCode: "Source code",
@@ -31,6 +33,8 @@ i18n
         translation: {
           about: "O mnie",
           projects: "Projekty",
+          skills: "Umiejętności",
+          technologiesAndSkills: "Technologie i Umiejętności",
           contact: "Kontakt",
           greeting: "Cześć, jestem wkktoria! 👋",
           sourceCode: "Kod źródłowy",

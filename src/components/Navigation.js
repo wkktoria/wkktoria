@@ -40,6 +40,11 @@ function Navigation() {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="#skills">
+                {t("skills")}
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="#contact">
                 {t("contact")}
               </a>
