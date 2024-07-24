@@ -2,6 +2,7 @@ function ThemeSwitch() {
   return (
     <button
       type="button"
+      id="themeButton"
       className="btn rounded"
       onClick={() => {
         const themeIcon = document.querySelector("#themeIcon");

@@ -11,7 +11,10 @@ function Navigation() {
   };
 
   return (
-    <nav className="navbar navbar-expand-sm">
+    <nav
+      id="navigation"
+      className="navbar navbar-dark navbar-expand-sm sticky-top"
+    >
       <div className="container-fluid">
         <a className="navbar-brand" href=".">
           wkktoria
@@ -52,7 +55,11 @@ function Navigation() {
             <li className="nav-item">
               <ThemeSwitch />
             </li>
-            <select defaultValue={i18n.language} onChange={onLanguageChange}>
+            <select
+              id="languageSelect"
+              defaultValue={i18n.language}
+              onChange={onLanguageChange}
+            >
               {languages.map(({ label, code }) => (
                 <option key={code} value={code}>
                   {label}

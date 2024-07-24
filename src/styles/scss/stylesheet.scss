@@ -1,5 +1,36 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+/* Navigation */
+
+#navigation {
+  background-color: $purple-500;
+}
+
+#themeButton {
+  border: none;
+  outline: none;
+}
+
+#themeIcon {
+  color: rgba($white, 0.55);
+
+  &:hover,
+  &:active {
+    color: rgba($white, 0.75);
+  }
+}
+
+#languageSelect {
+  border: none;
+  color: rgba($white, 0.55);
+  background-color: $purple-500;
+
+  &:hover,
+  &:active {
+    color: rgba($white, 0.75);
+  }
+}
+
 /* Projects section */
 
 .stack-item {
