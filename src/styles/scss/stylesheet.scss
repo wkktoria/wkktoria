@@ -39,3 +39,19 @@
   font-size: 1.5rem;
   color: $purple-500;
 }
+
+/* Skills section */
+
+.contact-item {
+  color: $purple-900;
+  background-color: $purple-100;
+  box-shadow: 0 1px 2px $purple-100;
+
+  &:hover,
+  &:active,
+  &:focus,
+  &:active:focus {
+    color: $purple-900;
+    background-color: $purple-200;
+  }
+}
