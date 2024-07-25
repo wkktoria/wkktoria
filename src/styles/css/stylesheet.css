@@ -8,6 +8,12 @@ section {
 
 /* Skills section */
 
+.skill {
+  width: 5rem;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
 #javaIcon {
   color: #5382a1;
 }
@@ -25,7 +31,7 @@ section {
 }
 
 #dockerIcon {
-  color: #1d63ed;
+  color: #1390f8;
 }
 
 #gitIcon {
@@ -33,6 +39,14 @@ section {
 }
 
 #githubIcon {
+  color: #000;
+}
+
+#databaseIcon {
+  color: #838383;
+}
+
+#linuxIcon {
   color: #000;
 }
 
