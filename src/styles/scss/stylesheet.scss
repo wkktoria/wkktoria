@@ -28,7 +28,14 @@
 /* Skills section */
 
 .skill {
+  width: 10rem;
+  height: 8rem;
   background-color: $purple-200;
-  border: 1px solid $purple-500;
+  border: 1px solid $purple-400;
   box-shadow: 2px 1px 1px $purple-300;
+}
+
+.skill-text {
+  font-size: 1.5rem;
+  color: $purple-500;
 }
