@@ -7,7 +7,7 @@ function Contact() {
     <section id="contact" className="mx-3">
       <h2>{t("contact")}</h2>
       <p className="text-center text-muted">{t("contactDescription")}</p>
-      <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3">
+      <div className="d-flex flex-row flex-wrap justify-content-center align-items-center gap-3">
         <a
           type="button"
           className="btn border px-3"
