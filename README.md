@@ -1,8 +1,20 @@
-# Hello there!
+# 👋 Hi, I'm Wiktoria
 
-[![wkktoria's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=wkktoria&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
-[![wkktoria's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=wkktoria&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
+Junior Java Developer | Passionate about Backend Development
 
-[![Top Langs-Dark](https://github-readme-stats.vercel.app/api/top-langs/?username=wkktoria&langs_count=3&hide=html,css,scss&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
-[![Top Langs-Light](https://github-readme-stats.vercel.app/api/top-langs/?username=wkktoria&langs_count=3&hide=html,css,scss&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
+# ⚙️ Tech Stack
 
+**Backend**: Java &#183; Spring Boot &#183; Spring Data &#183; Spring Security &#183; Jakarta EE &#183; Hibernate
+
+**Database**: SQL &#183; MySQL &#183; PostgreSQL &#183; Flyway
+
+**Frontend**: HTML &#183; CSS &#183; JavaScript &#183; TypeScript &#183; React
+
+**Tools & DevOps**: Maven &#183; Gradle &#183; Tomcat &#183; Jetty &#183; Docker &#183; Git
+
+**Testing**: JUnit
+
+# 📫 Connect with me
+
+- 💼 LinkedIn: https://www.linkedin.com/in/wiktoria-peretiatkowicz
+- 📧 Email: wiktoria.peretiatkowicz.contact@gmail.com
