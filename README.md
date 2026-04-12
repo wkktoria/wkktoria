@@ -1,18 +1,17 @@
 # 👋 Hi, I'm Wiktoria
 
-Junior Java Developer | Passionate about Backend Development
+Java Developer
 
 # ⚙️ Tech Stack
 
-**Backend**: Java &#183; Spring Boot &#183; Spring Data &#183; Spring Security &#183; Jakarta EE &#183; Hibernate
-
-**Database**: SQL &#183; MySQL &#183; PostgreSQL &#183; Flyway
-
-**Frontend**: HTML &#183; CSS &#183; JavaScript &#183; TypeScript &#183; React
-
-**Tools & DevOps**: Maven &#183; Gradle &#183; Tomcat &#183; Jetty &#183; Docker &#183; Git
-
-**Testing**: JUnit
+**Backend**: Java, Spring Boot, Spring Data, Spring Security, Hibernate  
+**Databases**: MySQL, PostgreSQL, MongoDB, Redis, Flyway  
+**API**: REST, HTTP, Swagger, Postman  
+**Build Tools**: Maven, Gradle  
+**DevOps**: Docker, Jenkins  
+**Version Control**: Git (GitHub, GitLab)  
+**Testing**: JUnit, Mockito, AssertJ, Spring Boot Test, MockMvc, Testcontainers  
+**Concepts**: Design Patterns
 
 # 📫 Connect with me
 
